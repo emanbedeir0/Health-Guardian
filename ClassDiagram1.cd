@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MedicineReminderApp.Person">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAQAAAAEAAAAQAAAAEAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>HealthGurdain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MedicineReminderApp.Patient">
+    <Position X="8.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>HealthGurdain.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="MyMedicines" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MedicineReminderApp.MedicineManager">
+    <Position X="7.5" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAEAQAAACkAAQAAAEAAAAAAAACBAAAAAgAAAAAAAgA=</HashCode>
+      <FileName>MedicineManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="report" />
+      <Property Name="Storage" />
+      <Property Name="Email" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="_allMedicines" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="MedicineReminderApp.Medicine">
+    <Position X="2" Y="9.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BAACAAAAAAAAAAAEAAAAAAQAAAAAACIAAAgAgoAAAAA=</HashCode>
+      <FileName>Medecine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MedicineReminderApp.Storage">
+    <Position X="10.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Storage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MedicineReminderApp.Email">
+    <Position X="5.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAhAAAAAAAAEAAQAAAAA=</HashCode>
+      <FileName>Email.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MedicineReminderApp.Timer">
+    <Position X="2.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgIEAAAAAAAAAAAgAAAABQSEJAAAAAABAAAAQAAQBAA=</HashCode>
+      <FileName>Timer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="manager" />
+      <Field Name="report" />
+      <Field Name="med" />
+      <Field Name="emailService" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MedicineReminderApp.ReportManager">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="MedicineReminderApp.ReportManager.DoseStatus">
+        <TypeIdentifier>
+          <NewMemberFileName>ReportManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ReportManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="WeeklyArray" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MedicineReminderApp.DayRecord">
+    <Position X="2.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAIAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ReportManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MedicineReminderApp.WeeklyReport">
+    <Position X="5.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEhAAAAQABBAAAI=</HashCode>
+      <FileName>WeeklyReport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
