@@ -12,8 +12,8 @@ namespace MedicineReminderApp
 {
     public class Email
     {
-        private string SenderEmail = "emanbedeir0@gmail.com";
-        private string AppPassword = "yfnbynremyldxezt";
+        private string SenderEmail = "ENTER_YOUR_EMAIL_HERE";
+        private string AppPassword ="ENTER_YOUR_APP_PASSWORD_HERE";
         public void SendInventoryAlert(string receiver, int count)
         {
             string subject = "Health Guardian: Inventory Alert";
