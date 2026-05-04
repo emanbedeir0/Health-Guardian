@@ -10,7 +10,7 @@ namespace MedicineReminderApp
 {
     public class ReportManager
     {
-        //  list of reports
+        
         public List<WeeklyReport> AllReports  = new List<WeeklyReport>();
 
         //  enum for dose status
@@ -18,13 +18,13 @@ namespace MedicineReminderApp
         {
             pending,
             TakeOnTime,
-            Missed
+            
         }
       
 
 
 
-        // The array of days
+        
         public DayRecord[] WeeklyArray = new DayRecord[7];
 
         public ReportManager()
@@ -35,7 +35,7 @@ namespace MedicineReminderApp
                 WeeklyArray[i] = new DayRecord();
             }
 
-            // Setting day names exactly like your file
+            
             WeeklyArray[0].NameDay = "Saturday";
             WeeklyArray[1].NameDay = "Sunday";
             WeeklyArray[2].NameDay = "Monday";
@@ -45,7 +45,7 @@ namespace MedicineReminderApp
             WeeklyArray[6].NameDay = "Friday";
         }
     }
-    // DayRecord class stays simple as it was
+    
     public class DayRecord
     {
         public string NameDay { get; set; }
