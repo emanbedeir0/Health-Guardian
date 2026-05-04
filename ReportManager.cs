@@ -18,7 +18,7 @@ namespace MedicineReminderApp
         {
             pending,
             TakeOnTime,
-            
+            Missed
         }
       
 
