@@ -21,7 +21,7 @@ The project follows a modular architecture to separate time-tracking, communicat
 * **`Email.cs`**: The communication service that integrates with **SMTP servers** to instantly notify family members about missed doses or low stock (below 5 pills).
 * **`HealthGurdain.cs`**: Focuses on data integrity and specialized patient monitoring protocols.
 * **`Medecine.cs`**: The core data model that defines the attributes of each medication and its dosage requirements.
-* 
+
 ## 📧 Email Configuration (Security Note)
 To maintain security, personal credentials have been removed. To use the notification feature:
 1. Open `Email.cs`.
