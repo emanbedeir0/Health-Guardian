@@ -4,7 +4,7 @@
 ## 🌟 Overview
 Many elderly people face a common challenge: difficulty in remembering medication schedules, leading to serious health risks and constant anxiety for their families. 
 
-This project is far from being a basic reminder app; it is a comprehensive **Healthcare Support Solution** built using **C#** and **Windows Forms**. It acts as a bridge between patients and their loved ones, automating the entire care cycle—from tracking precise dosages to monitoring pill counts—ensuring that treatment is never missed and families are always kept in the loop through real-time notifications.
+This project is far from being a basic reminder app; it is a comprehensive **Healthcare Support Solution** built using **C#** and **Windows Forms**. It acts as a bridge between patients and their loved ones, automating the entire care cycle from tracking precise dosages to monitoring pill counts ensuring that treatment is never missed and families are always kept in the loop through real-time notifications.
 ## ✨ Key Features
 * **Missed-Dose Notifications:** Automatically alerts relatives via email if a scheduled dose is skipped.
 * **Smart Low-Stock Email Alerts:** Beyond simple on-screen notifications, the system automatically sends an email to relatives the moment the medicine count reaches 5 pills.
