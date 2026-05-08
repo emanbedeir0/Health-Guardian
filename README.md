@@ -2,16 +2,14 @@
 ---
 
 ## 🌟 Overview
-This project is far from being just a basic medication reminder or a simple medicine logging app. Unlike standard applications that only provide notifications, this system is a comprehensive **Healthcare Support Solution** built to bridge the gap between patients and their families.
+Many elderly people face a common challenge: difficulty in remembering medication schedules, leading to serious health risks and constant anxiety for their families. 
 
-Developed using **C#** and **Windows Forms**, it offers a high level of control that goes beyond simple alerts. It manages the entire medication cycle—from tracking precise dosages and pill counts to generating weekly adherence sheets. Most importantly, it keeps the family connected through automated email alerts, ensuring that care is a shared responsibility, not just a solo task.
-
+This project is far from being a basic reminder app; it is a comprehensive **Healthcare Support Solution** built using **C#** and **Windows Forms**. It acts as a bridge between patients and their loved ones, automating the entire care cycle—from tracking precise dosages to monitoring pill counts—ensuring that treatment is never missed and families are always kept in the loop through real-time notifications.
 ## ✨ Key Features
-* **Smart Emergency Alerts:** Automatically sends email updates to relatives if a patient misses their scheduled dose, ensuring immediate awareness.
-* **Low Stock Notifications:** The system monitors pill counts in real-time and alerts the family as soon as the quantity drops below **5 pills**, allowing for timely restocking.
-* **Beyond Simple Reminders:** Manages complex scheduling, dosages, and inventory levels in one integrated dashboard.
-* **Weekly Performance Sheets:** Generates detailed reports to track medication consistency over the week for medical review.
-* **Modular OOP Architecture:** Built with professional classes like `MedicineManager` and `HealthGurdain` for maximum reliability.
+* **Missed-Dose Notifications:** Automatically alerts relatives via email if a scheduled dose is skipped.
+* **Smart Low-Stock Email Alerts:** Beyond simple on-screen notifications, the system automatically sends an email to relatives the moment the medicine count reaches 5 pills.
+* **Weekly Compliance Reports:** Generates structured data to track medication adherence over time.
+* **Visual Architecture:** Includes a professional Class Diagram representing the system’s modular design.
 
 ## 📁 Project Structure
 The project follows a modular architecture to separate time-tracking, communication, and data management:
@@ -19,9 +17,7 @@ The project follows a modular architecture to separate time-tracking, communicat
 * **`Timer.cs`**: The dedicated engine for time-tracking. It handles the **background timers** and real-time monitoring to ensure alerts are triggered at the exact scheduled moments.
 * **`MedicineManager.cs`**: Acts as the central controller for inventory logic. It tracks pill counts and checks them against the **safety threshold** to identify when restocking is needed.
 * **`Email.cs`**: The communication service that integrates with **SMTP servers** to instantly notify family members about missed doses or low stock (below 5 pills).
-* **`HealthGurdain.cs`**: Focuses on data integrity and specialized patient monitoring protocols.
-* **`Medecine.cs`**: The core data model that defines the attributes of each medication and its dosage requirements.
-
+* **`HealthGurdain.cs` & `Medecine.cs`**: Dedicated to maintaining data integrity and defining the core medical entities.
 ## 📧 Email Configuration (Security Note)
 To maintain security, personal credentials have been removed. To use the notification feature:
 1. Open `Email.cs`.
